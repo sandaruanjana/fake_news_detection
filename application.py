@@ -30,7 +30,7 @@ def fake_news_detection(news):
 
 
 
-DB_URI = "mysql+pymysql://admin:pFRQT725&yX1Ytj7@aa11x33816hc477.cko51fghichq.us-east-2.rds.amazonaws.com/ebdb"
+DB_URI = "mysql+pymysql://username:password@serverUrl"
 application.config['SQLALCHEMY_DATABASE_URI'] = DB_URI
 application.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(application)
